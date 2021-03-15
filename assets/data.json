@@ -1,0 +1,71 @@
+{
+    "about": {
+        "name": "Sung Joon Park (Josh)",
+        "major": "Computer Science B.A & Economics Minor @ BC",
+        "photo": "assets/visa_photo.jpg",
+        "desc": "I am a senior at Boston College, Computer Science major and Economics minor.I 'm interested in topics such as data analysis, data visualization and front - end.I like to watch movies, travel and explore new places, and go bowling.",
+        "school": "Morrissey College of Arts & Sciences 2021",
+        "email": "parkxd@bc.edu",
+        "resume": "assets/Sung_Joon_Park_CV.pdf",
+        "linkedin": "https://www.linkedin.com/in/sung-joon-park-279158130/",
+        "github": "https://github.com/SungJoon-Park"
+    },
+    "news": [
+        {
+            "title": "Undergraduate Researcher @ Korea University (KR)",
+            "date": "MAR 2020 - JUL 2020"
+        },
+        {
+            "title": "Recruitment Intern @ Amazon Web Services (KR)",
+            "date": "MAY 2019 - NOV 2019"
+        },
+        {
+            "title": "Enterprise Repository Master @ NN Company (CZ)",
+            "date": "MAY 2018 - JUL 2018"
+        },
+        {
+            "title": "Dealing Room Intern @ Societe Generale (KR)",
+            "date": "JUL 2017 - AUG 2017"
+        },
+        {
+            "title": "Korean Augmentation to the US Army (KR)",
+            "date": "AUG 2015 - MAY 2017"
+        },
+        {
+            "title": "Enrolled @ Boston College (MA, US)",
+            "date": "August 2014"
+        }
+    ],
+    "projects": [{
+            "id": "visualization",
+            "title": "Rise of Streaming Platforms",
+            "authors": "Sung Joon Park, Mooyoung Lee, Brishti Saha, Gayoung Lee",
+            "source": "Data Visualization, 2020",
+            "teaser": "assets/vis/vis.jpg",
+            "tags": ["HTML/CSS", "JavaScript"],
+            "materials": [{
+                    "label": "Link",
+                    "path": "https://csci3311-visualization.github.io/Final-Project/"
+                },
+                {
+                    "label": "Video",
+                    "path": "https://www.youtube.com/watch?v=KmnS4FKc_sw"
+                }
+            ],
+            "desc": "With Netflix, Disney+ and various streaming platforms rising, it is crucial for big companies to get a sense of what movies and shows people are interested in so that they can retain their users.This would also benefit the users since they would be able to access their favorite shows on the streaming platforms, being able to escape from any emotional stress caused at this time of uncertainty. Through our project, we hope to provide meaningful information and trends regarding films on multiple streaming platforms for the companies as well as the consumers."
+        },
+        {
+            "id": "tennis",
+            "title": "Machine Learning for Determining Tennis Court Conditions",
+            "authors": "Sung Joon Park (DXP Lab)",
+            "source": "Korea University (DXP Lab), 2020",
+            "teaser": "assets/tennis/tennis.jpg",
+            "tags": ["Python", "Tensorflow"],
+            "materials": [{
+                "label": "Paper",
+                "path": "assets/tennis/Final Report (Sung Joon Park).pdf"
+            }],
+            "desc": "Researching under Professor Kim at Korea University, I organized and managed a project that automatically determines likelihood to play tennis by discerning condition of a clay tennis court. The steps to construct a structure to automate this process, I collected images of tennis court in same angle through installed IP Camera, made two datasets: 'CAN' and 'CANNOT',and built a structure. The structure was constructed in order to learn from dataset, determine the status of the court, and derive the result. After learning from train directory, the model was tested by images from train directory and showed 70% of accuracy."
+        }
+    ]
+}
